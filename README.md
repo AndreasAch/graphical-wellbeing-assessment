@@ -4,7 +4,7 @@ This repository is part of the [CSE3000 Research Project](https://github.com/TU-
 
 ## Important Information
 The pre-trained models that are used in the code for inference are too large to be pushed in this repository. To obtain the 9 models that the application uses for inference follow these steps:
-In the following steps `"Element"` is to be replaced with either `"House", "Tree", "Person"` depending on the model you wish to obtain.
+(In the following steps `"Element"` is to be replaced with either `"House", "Tree", "Person"` depending on the model you wish to obtain.)
 
  1. Un-comment the lines 150-155 in `ElementClassifier.py` depending on the model you want to obtain.
  2. Adjsut the model parameters here
