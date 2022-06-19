@@ -2,9 +2,15 @@
 
 This repository is part of the [CSE3000 Research Project](https://github.com/TU-Delft-CSE/Research-Project) 2022 of [TU Delft](https://github.com/TU-Delft-CSE)
 
+## Description
+For this research project, a projective testing technique used in psychology, the House-Tree-Person Test (H-T-P) was adapted in a simplified version as a means to assess one's wellbeing through drawing. The designed system is aimed to increase user engagement during the assessment, as opposed to a traditional survey approach.
+
+The solution makes use of image classifiers written in Python using PyTorch. For each element of the test (House, Tree, and Person) 3 possible
+
 ## Important setup information
-The pre-trained models that are used in the code for inference are too large to be pushed in this repository. To obtain the 9 models that the application uses for inference follow these steps:
-(In the following steps `"Element"` is to be replaced with either `"House", "Tree", "Person"` depending on the model you wish to obtain.)
+The pre-trained models that are used in the code for inference are too large to be pushed in this repository. To obtain the 9 models that the application uses for inference follow these steps: <br>
+<br>
+<em>(In the following steps `"Element"` is to be replaced with either `"House", "Tree", "Person"` depending on the model you wish to obtain.)</em>
 
  1. Un-comment the lines 150-155 in `ElementClassifier.py` depending on the model you want to obtain.
  2. Adjsut the model parameters here
